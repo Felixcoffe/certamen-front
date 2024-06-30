@@ -1,5 +1,5 @@
 # certamen-front
- Certamen de front end
+ Certamen de front end hito/entrega 1
 
 para iniciar:
 npm install @angular/cli
@@ -9,3 +9,5 @@ ng add @angular/material
   y
   enable animations
 npm start
+
+*imagenes del mockup esta en la carpeta mockup se pide y se anexa un escrito con una mejora de las imagenes*
