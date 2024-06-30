@@ -1,0 +1,37 @@
+img 1: 
+
+traducción textual = [[]]
+
+home.
+posee un nav donde se muestra el nombre del programa y las pagina a navegar
+
+[[idea que gracias a la api con el comando random de esta arroje una carta random y sus datos mas importantes]]
+
+pagina colección:
+
+[[barra de búsqueda.
+muestra las cartas que se selecciono con <3 (like corazón)
+-> además se debería implementar una pagina que muestre las cartas disponibles]]
+
+pagina decks/mazos:
+
+[[la idea que en el apartado decks/mazos muestre la lista de mazos disponibles
+y que al chequear uno muestre la lista de cartas que incluye el mazo o por lómenos los nombres]]
+
+img 2:
+
+pagina detalle de la carta:
+ 
+[[vista del pop up de una carta con el detalle de esta (foto/nombre/datos para ñoños)]]
+
+posible Vista "A" de detalle del mazo:
+
+[[*vista de cada carta con su foto
+*no es muy practico pero es visualmente atractivo
+contiene una barra de búsqueda para agregar las cartas]]
+
+posible vista "B" de detalle del mazo: 
+
+[[muestra el nombre de la carta y un dato de interés 
+es más practico pero menos visual 
+conserva la barra de búsqueda para el mismo propósito]]
