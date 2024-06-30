@@ -1,0 +1,23 @@
+<button mat-flat-button (click)="back()"> Volver</button>
+
+<mat-card class="mt-2">
+    <img mat-card-image src={{mtgcard.img}} alt={{mtgcard.nombre}}>
+    <mat-card-content class="a">
+        <p>
+            detalles de la carta: 
+        </p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius animi dolorem cumque dolor placeat id incidunt! Eveniet exercitationem aspernatur autem, quae provident odit! Minus rerum exercitationem voluptate id iusto laboriosam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum ducimus velit voluptatem inventore rem non, totam, itaque, illo commodi culpa molestias adipisci praesentium nemo earum! Ex facilis magnam optio reprehenderit!
+        <hr>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur impedit, necessitatibus sit aspernatur at asperiores error aperiam, aliquid pariatur, facilis consequuntur voluptatibus laborum voluptas natus sequi quasi dolor consequatur? Labore!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorum officia praesentium recusandae nulla aperiam similique error voluptates, tempora, atque nam id ipsum deleniti ex eveniet nesciunt est esse ullam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque explicabo ad ab! Sed tenetur, repellendus sapiente doloremque odio rerum placeat corrupti quo voluptatibus. Inventore ad qui repellat aut minima quia?
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button (click)="like()">
+            <mat-icon aria-hidden="false" fontIcon="favorite" [ngClass]="mtgcard.liked?'like':''"></mat-icon>
+            agregar a mi colección
+          </button>
+    </mat-card-actions>
+  </mat-card>
+  

@@ -1,0 +1,13 @@
+<mat-card appearance="outlined">
+    <img mat-card-image src={{mtgcard.img}} alt={{mtgcard.nombre}}>
+    <mat-card-actions>
+      <button mat-button (click)="like()">
+        <mat-icon aria-hidden="false" fontIcon="favorite" [ngClass]="mtgcard.liked?'like':''"></mat-icon>
+        agregar a mi colección
+      </button>
+      <a mat-button 
+      [routerLink]="['/coleccion',mtgcard.id]">
+        detalle
+    </a>
+    </mat-card-actions>
+  </mat-card>

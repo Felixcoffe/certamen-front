@@ -1,0 +1,9 @@
+<p class="a">[[Placeholder de barra de busqueda]]</p>
+<hr>
+<div class="row">
+    @for (carta of cartas; track $index) {
+        <div class="col-md-3">
+            <app-carta [mtgcard]=carta></app-carta>
+        </div>
+    }
+</div>

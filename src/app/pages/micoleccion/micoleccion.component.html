@@ -1,0 +1,11 @@
+<h1 class="a">aqui se muestran las cartas de tu colección:</h1>
+<div class="row">
+    @for (carta of cartas; track $index) {
+        @if (carta.liked) {
+            <div class="col-md-3">
+             <app-carta [mtgcard]=carta></app-carta>
+            </div>
+        }
+    }
+</div>
+
