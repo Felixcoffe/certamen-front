@@ -1,0 +1,10 @@
+<div id="div-search">
+    <input id="search-bar" type="text" [formControl]="searchControl" placeholder="Buscar Carta">
+</div>
+  <div *ngIf="cardRows.length">
+    <div *ngFor="let row of cardRows" class="row">
+      <div *ngFor="let card of row" class="col-md-4">
+        <app-carta [mtgcard]="card"></app-carta>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,21 @@
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px; /* Ajusta el espacio entre filas según sea necesario */
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px; /* Para ajustar el espacio negativo al inicio de la fila */
+  }
+
+  app-carta {
+    width: 100%; /* Asegúrate de que el componente carta ocupe todo el ancho de su contenedor */
+    box-sizing: border-box;
+  }
+#search-bar {
+    margin-bottom: 40px;
+    width: 60%;
+}
