@@ -51,4 +51,8 @@ export class CardService {
     return this.myCards.find(item=>item.id===cardId)!;
   }
   
+  searchCardsByName(name: string): Mtgcard[] {
+    const minName = name.toLowerCase();
+    return this.myCards.filter(card => card.nombre && card.nombre.toLowerCase().includes(minName));
+  }
 }
