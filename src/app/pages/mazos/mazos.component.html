@@ -1,1 +1,8 @@
 <p>se implementara en la siguiente entrega</p>
+<div class="row">
+    @for (mazo of mazos; track $index) {
+            <div class="col-md-3">
+             <app-deck [mtgdeck]=mazo></app-deck>
+            </div>
+    }
+</div>

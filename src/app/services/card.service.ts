@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
 import { Mtgcard } from '../models/mtgcard';
+import { Mtgdeck } from '../models/mtgdeck';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CardService {
-
   myCards:Mtgcard[]=[
     {
         id:"war",
@@ -21,6 +21,27 @@ export class CardService {
       legendary:true,
       liked:false,
   },
+    {
+      id:"woc",
+      nombre:"Brenard, ginger sculptor",
+      img: "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=633083&type=card",
+      legendary:true,
+      liked:false
+    },
+    {
+      id:"woc",
+      nombre:"Brenard, ginger sculptor",
+      img: "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=633083&type=card",
+      legendary:true,
+      liked:false
+    },
+    {
+      id:"woc",
+      nombre:"Brenard, ginger sculptor",
+      img: "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=633083&type=card",
+      legendary:true,
+      liked:false
+    },
     {
       id:"woc",
       nombre:"Brenard, ginger sculptor",

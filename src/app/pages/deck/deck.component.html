@@ -1,0 +1,9 @@
+<mat-card appearance="outlined">
+    <img mat-card-image src={{mtgdeck.img}} alt={{mtgdeck.nombre}}>
+    <mat-card-actions>
+      <a mat-button 
+      [routerLink]="['/mazos',mtgdeck.id]">
+        detalle
+    </a>
+    </mat-card-actions>
+  </mat-card>
