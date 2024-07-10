@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Mtgdeck } from '../../models/mtgdeck';
 import { DeckService } from '../../services/deck.service';
-import { DeckComponent } from '../deck/deck.component';
+import { DeckComponent } from '../../componentes/deck/deck.component';
 
 @Component({
   selector: 'app-mazos',

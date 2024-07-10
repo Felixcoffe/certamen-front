@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Mtgcard } from '../../models/mtgcard';
 import { CardService } from '../../services/card.service';
 import { CartaComponent } from "../../componentes/carta/carta.component";
-import { SearchBarComponent } from '../search-bar/search-bar.component';
+import { SearchBarComponent } from '../../componentes/search-bar/search-bar.component';
 import { CommonModule } from '@angular/common';
 
 @Component({
