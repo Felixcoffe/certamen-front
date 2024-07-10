@@ -1,5 +1,11 @@
-<button mat-flat-button (click)="back()"> Volver</button>
 
+    <mat-toolbar>
+      <button mat-flat-button (click)="back()"> Volver</button>
+      <div style="flex: 1 1 auto ;"></div>
+      <span style="text-align: center;">{{mtgdeck.nombre}}</span>
+      <div style="flex: 1 1 auto ;"></div>
+      <button mat-flat-button [routerLink]="['/mazos',mtgdeck.id,'agregarcarta']">agregar carta</button>
+    </mat-toolbar>
 <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
 
     <!--- Note that these columns can be defined in any order.

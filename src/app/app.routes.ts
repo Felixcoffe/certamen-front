@@ -6,6 +6,7 @@ import { MazosComponent } from './pages/mazos/mazos.component';
 import { MicoleccionComponent } from './pages/micoleccion/micoleccion.component';
 import { DetalleComponent } from './componentes/detalle/detalle.component';
 import { DetmazoComponent } from './componentes/detmazo/detmazo.component';
+import { AgregarcartaComponent } from './componentes/agregarcarta/agregarcarta.component';
 
 export const routes: Routes = [
 {   path:'',
@@ -25,7 +26,11 @@ export const routes: Routes = [
 },{
     path:'mazos/:id',
     component:DetmazoComponent
+},{
+    path:'mazos/:id/agregarcarta',
+    component:AgregarcartaComponent
 }
+
 
 
 ];
