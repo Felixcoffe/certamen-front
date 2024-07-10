@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Mtgcard } from '../../models/mtgcard';
 import { CardService } from '../../services/card.service';
-import { CartaComponent } from "../carta/carta.component";
+import { CartaComponent } from "../../componentes/carta/carta.component";
 
 @Component({
     selector: 'app-micoleccion',

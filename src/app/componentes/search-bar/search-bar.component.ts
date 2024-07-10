@@ -4,7 +4,7 @@ import { debounceTime } from 'rxjs/operators';
 import { CommonModule } from '@angular/common';
 import { CardService } from '../../services/card.service';
 import { Mtgcard } from '../../models/mtgcard';
-import { CartaComponent } from "../carta/carta.component";
+import { CartaComponent } from "../../componentes/carta/carta.component";
 
 @Component({
   selector: 'app-search-bar',

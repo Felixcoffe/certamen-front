@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CartaComponent } from "../carta/carta.component";
+import { CartaComponent } from "../../componentes/carta/carta.component";
 import { Mtgcard } from '../../models/mtgcard';
 import { MatCardModule } from '@angular/material/card';
 
