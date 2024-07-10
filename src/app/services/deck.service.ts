@@ -29,4 +29,7 @@ export class DeckService {
         }    
     )
   }
+getDeckById(deckId: string):Mtgdeck {
+  return this.myDecks.find(item=>item.id===deckId)!;
+}
 }

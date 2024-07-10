@@ -1,6 +1,6 @@
 export class Mtgdeck{
-    id?: String;
-    nombre: String;
+    id?: string;
+    nombre: string;
     img: String;
     liked: boolean;
 }

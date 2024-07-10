@@ -5,6 +5,7 @@ import { ColeccionComponent } from './pages/coleccion/coleccion.component';
 import { MazosComponent } from './pages/mazos/mazos.component';
 import { MicoleccionComponent } from './pages/micoleccion/micoleccion.component';
 import { DetalleComponent } from './pages/detalle/detalle.component';
+import { DetmazoComponent } from './pages/detmazo/detmazo.component';
 
 export const routes: Routes = [
 {   path:'',
@@ -21,6 +22,10 @@ export const routes: Routes = [
 },{
     path:'coleccion/:id',
     component:DetalleComponent
+},{
+    path:'mazos/:id',
+    component:DetmazoComponent
 }
+
 
 ];

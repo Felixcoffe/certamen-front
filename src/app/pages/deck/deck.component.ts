@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterLinkWithHref } from '@angular/router';
 import { Mtgdeck } from '../../models/mtgdeck';
 import { MatCardModule } from '@angular/material/card';
 import { CommonModule } from '@angular/common';
